@@ -1,5 +1,7 @@
-p {
-    color : red;
+body {
+    background: black;
+    background-image: url("https://wallpapers.com/images/featured/math-zarpq292tmb3whun.jpg" );
+    
 }
 
 .button {
@@ -7,8 +9,17 @@ p {
     border: 1px solid black;
     border-radius: 9px;
     margin: 0 3px;
-    background: black;
-    color: yellow;
+    width: 63px;
+    
+}
+
+.zero-btn {
+   
+    margin: 0 3px;
+    border: 1px solid black;
+    border-radius: 9px;
+    width: 135px;
+    height: 64px;
 }
 
 .row {
@@ -17,8 +28,26 @@ p {
 
 .row input {
     margin: 0;
-    padding: 10px 38px;
+    padding: 10px 47px;
     border: 2px solid black;
     border-radius: 5px;
   
+}
+
+.operator {
+    padding :24px;
+    border: 1px solid black;
+    border-radius: 9px;
+    margin: 0 3px;
+    background: orange;
+    color: white;
+}
+
+.top-div {
+    position: relative;
+    top: 200px;
+}
+
+.input {
+    width: 200px;
 }

@@ -1,5 +1,6 @@
 .text-centre {
     text-align: center;
+    color: white;
 }
 
 .bg-red {
@@ -17,5 +18,13 @@
 
 .mx-auto {
     margin: auto;
+}
+
+.font-size {
+    font-size: 23px;
+}
+
+.orange-col {
+    background: orange;
 }
 
